@@ -2,7 +2,7 @@
 
 Simple **Windows/Linux** beep utility designed as a **component** for your programs (not standalone executable).
 
-## 📁 Project Structure
+## Project Structure
 ```
 play-sound/
 ├── example.c          # Simple usage example
@@ -14,7 +14,7 @@ play-sound/
     └── sound.c       # Windows implementation
 ```
 
-## 💡 Usage
+## Usage
 
 **Include in your project** and compile with platform-specific sound.c:
 
@@ -31,7 +31,7 @@ gcc your_program.c windows/sound.c -lwinmm -o your_program.exe
 ./your_program.exe
 ```
 
-## 💻 Example (example.c)
+## Example (example.c)
 ```c
 #include "linux/sound.h"  // or "windows/sound.h"
 
@@ -47,7 +47,7 @@ gcc example.c linux/sound.c -o example  # Linux
 gcc example.c windows/sound.c -lwinmm -o example.exe  # Windows
 ```
 
-## 🎵 Interface
+## Interface
 ```c
 void beep(int freq, int duration_ms);  // Hz, milliseconds
 ```
