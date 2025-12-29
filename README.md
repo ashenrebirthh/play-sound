@@ -52,7 +52,7 @@ gcc example.c windows/sound.c -lwinmm -o example.exe  # Windows
 void beep(int freq, int duration_ms);  // Hz, milliseconds
 ```
 
-## ❌ Troubleshooting
+## Troubleshooting
 
 **Linux no sound:**
 ```bash
