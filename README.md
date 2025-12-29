@@ -1,4 +1,4 @@
-# Cross-platform Beep Sound in C 🚀
+# Cross-platform Beep Sound in C 
 
 Simple **Windows/Linux** beep utility designed as a **component** for your programs (not standalone executable).
 
